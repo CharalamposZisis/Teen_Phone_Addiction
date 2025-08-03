@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: Teen_Phone_Addiction
+Version: 0.0.0
+Summary: A small python package for ml app
+Home-page: https://github.com/Charalampos_Zisis/Teen_Phone_Addiction
+Author: Charalampos_Zisis
+Author-email: xarisban@gmail.com
+Project-URL: Bug Tracker, https://github.com/Charalampos_Zisis/Teen_Phone_Addiction/issues
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+# Teen_Phone_Addiction

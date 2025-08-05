@@ -3,5 +3,5 @@ artifacts_root: artifacts
 data_ingestion:
   root_dir: artifacts/data_ingestion
   dataset_download_url: https://github.com/CharalamposZisis/Teen_Phone_Addiction/raw/refs/heads/main/teen_phone_addiction_dataset.zip
-  local_data_file: artifacts/data_ingestion/teen_phone_addiction_dataset.rar
+  local_data_file: artifacts/data_ingestion/teen_phone_addiction_dataset.zip
   unzip_dir: artifacts/data_ingestion/extracted_data

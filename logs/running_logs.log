@@ -227,3 +227,409 @@ Source-Age: 0
 
 ]
 [2025-08-05 17:58:59,983: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-08-06 12:42:24,293: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 12:42:24,354: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 12:42:24,419: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 12:42:24,423: INFO: common: created directory at: artifacts]
+[2025-08-06 12:42:24,426: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-06 12:49:15,847: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 12:49:15,851: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 12:49:15,857: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 12:49:15,859: INFO: common: created directory at: artifacts]
+[2025-08-06 12:49:15,861: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-06 12:56:58,292: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 12:56:58,297: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 12:56:58,305: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 12:56:58,308: INFO: common: created directory at: artifacts]
+[2025-08-06 12:56:58,311: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-06 13:00:30,040: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:00:30,045: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:00:30,084: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:00:30,087: INFO: common: created directory at: artifacts]
+[2025-08-06 13:00:30,090: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-06 13:00:39,639: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:00:39,644: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:00:39,650: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:00:39,652: INFO: common: created directory at: artifacts]
+[2025-08-06 13:00:39,654: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-06 13:00:54,313: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:00:54,316: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:00:54,327: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:00:54,330: INFO: common: created directory at: artifacts]
+[2025-08-06 13:00:54,333: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-06 13:00:55,027: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:00:55,031: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:00:55,037: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:00:55,041: INFO: common: created directory at: artifacts]
+[2025-08-06 13:00:55,043: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-06 13:00:55,583: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:00:55,586: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:00:55,593: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:00:55,595: INFO: common: created directory at: artifacts]
+[2025-08-06 13:00:55,598: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-06 13:24:12,534: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage started <<<<<<<<<<<<]
+[2025-08-06 13:24:12,537: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:24:12,539: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:24:12,547: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:24:12,548: INFO: common: created directory at: artifacts]
+[2025-08-06 13:24:12,548: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-06 13:24:12,549: INFO: data_ingestion: File already exists of size: ~ 114 KB]
+[2025-08-06 13:24:12,558: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-08-06 13:24:12,560: INFO: main: >>>>>>>>>>>>> stage Data Validation stage started <<<<<<<<<<<<]
+[2025-08-06 13:24:12,562: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:24:12,564: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:24:12,568: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:24:12,570: INFO: common: created directory at: artifacts]
+[2025-08-06 13:24:12,571: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_validation_config']
+Traceback (most recent call last):
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\main.py", line 26, in <module>
+    obj.main()
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\pipeline\stage_02_validation_data.py", line 15, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_validation_config'. Did you mean: 'get_data_ingestion_config'?
+[2025-08-06 13:25:42,375: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage started <<<<<<<<<<<<]
+[2025-08-06 13:25:42,378: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:25:42,379: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:25:42,384: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:25:42,385: INFO: common: created directory at: artifacts]
+[2025-08-06 13:25:42,386: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-06 13:25:42,386: INFO: data_ingestion: File already exists of size: ~ 114 KB]
+[2025-08-06 13:25:42,395: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-08-06 13:25:42,396: INFO: main: >>>>>>>>>>>>> stage Data Validation stage started <<<<<<<<<<<<]
+[2025-08-06 13:25:42,398: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:25:42,400: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:25:42,404: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:25:42,405: INFO: common: created directory at: artifacts]
+[2025-08-06 13:25:42,405: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_validation_config']
+Traceback (most recent call last):
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\main.py", line 26, in <module>
+    data_ingestion.main()
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\pipeline\stage_02_validation_data.py", line 15, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_validation_config'. Did you mean: 'get_data_ingestion_config'?
+[2025-08-06 13:35:01,223: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage started <<<<<<<<<<<<]
+[2025-08-06 13:35:01,228: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:35:01,229: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:35:01,236: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:35:01,238: INFO: common: created directory at: artifacts]
+[2025-08-06 13:35:01,239: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-06 13:35:01,240: INFO: data_ingestion: File already exists of size: ~ 114 KB]
+[2025-08-06 13:35:01,249: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-08-06 13:35:01,250: INFO: main: >>>>>>>>>>>>> stage Data Validation stage started <<<<<<<<<<<<]
+[2025-08-06 13:35:01,254: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:35:01,256: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:35:01,262: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:35:01,264: INFO: common: created directory at: artifacts]
+[2025-08-06 13:35:01,264: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_validation_config']
+Traceback (most recent call last):
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\main.py", line 26, in <module>
+    data_ingestion.main()
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\pipeline\stage_02_validation_data.py", line 15, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_validation_config'. Did you mean: 'get_data_ingestion_config'?
+[2025-08-06 13:47:43,562: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage started <<<<<<<<<<<<]
+[2025-08-06 13:47:43,565: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:47:43,567: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:47:43,573: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:47:43,574: INFO: common: created directory at: artifacts]
+[2025-08-06 13:47:43,575: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-06 13:47:43,576: INFO: data_ingestion: File already exists of size: ~ 114 KB]
+[2025-08-06 13:47:43,585: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-08-06 13:47:43,586: INFO: main: >>>>>>>>>>>>> stage Data Validation stage started <<<<<<<<<<<<]
+[2025-08-06 13:47:43,589: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:47:43,591: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:47:43,596: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:47:43,597: INFO: common: created directory at: artifacts]
+[2025-08-06 13:47:43,598: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_validation_config']
+Traceback (most recent call last):
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\main.py", line 26, in <module>
+    data_ingestion.main()
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\pipeline\stage_02_validation_data.py", line 15, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_validation_config'. Did you mean: 'get_data_ingestion_config'?
+[2025-08-06 13:55:07,831: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage started <<<<<<<<<<<<]
+[2025-08-06 13:55:07,835: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:55:07,837: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:55:07,843: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:55:07,844: INFO: common: created directory at: artifacts]
+[2025-08-06 13:55:07,846: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-06 13:55:07,847: INFO: data_ingestion: File already exists of size: ~ 114 KB]
+[2025-08-06 13:55:07,859: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-08-06 13:55:07,860: INFO: main: >>>>>>>>>>>>> stage Data Validation stage started <<<<<<<<<<<<]
+[2025-08-06 13:55:07,864: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:55:07,866: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:55:07,871: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:55:07,872: INFO: common: created directory at: artifacts]
+[2025-08-06 13:55:07,874: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_validation_config']
+Traceback (most recent call last):
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\main.py", line 26, in <module>
+    data_ingestion.main()
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\pipeline\stage_02_validation_data.py", line 15, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_validation_config'. Did you mean: 'get_data_ingestion_config'?
+[2025-08-06 13:56:25,225: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage started <<<<<<<<<<<<]
+[2025-08-06 13:56:25,229: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:56:25,231: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:56:25,236: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:56:25,237: INFO: common: created directory at: artifacts]
+[2025-08-06 13:56:25,238: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-06 13:56:25,239: INFO: data_ingestion: File already exists of size: ~ 114 KB]
+[2025-08-06 13:56:25,247: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-08-06 13:56:25,248: INFO: main: >>>>>>>>>>>>> stage Data Validation stage started <<<<<<<<<<<<]
+[2025-08-06 13:56:25,251: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:56:25,253: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:56:25,258: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:56:25,259: INFO: common: created directory at: artifacts]
+[2025-08-06 13:56:25,260: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_validation_config']
+Traceback (most recent call last):
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\main.py", line 26, in <module>
+    data_ingestion.main()
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\pipeline\stage_02_validation_data.py", line 15, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_validation_config'. Did you mean: 'get_data_ingestion_config'?
+[2025-08-06 13:58:58,597: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage started <<<<<<<<<<<<]
+[2025-08-06 13:58:58,601: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:58:58,602: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:58:58,608: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:58:58,608: INFO: common: created directory at: artifacts]
+[2025-08-06 13:58:58,610: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-06 13:58:58,610: INFO: data_ingestion: File already exists of size: ~ 114 KB]
+[2025-08-06 13:58:58,620: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-08-06 13:58:58,621: INFO: main: >>>>>>>>>>>>> stage Data Validation stage started <<<<<<<<<<<<]
+[2025-08-06 13:58:58,623: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:58:58,626: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:58:58,631: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:58:58,632: INFO: common: created directory at: artifacts]
+[2025-08-06 13:58:58,632: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_validation_config']
+Traceback (most recent call last):
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\main.py", line 26, in <module>
+    data_ingestion.main()
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\pipeline\stage_02_validation_data.py", line 15, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_validation_config'. Did you mean: 'get_data_ingestion_config'?
+[2025-08-06 13:59:29,059: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage started <<<<<<<<<<<<]
+[2025-08-06 13:59:29,062: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:59:29,064: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:59:29,069: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:59:29,070: INFO: common: created directory at: artifacts]
+[2025-08-06 13:59:29,071: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-06 13:59:29,072: INFO: data_ingestion: File already exists of size: ~ 114 KB]
+[2025-08-06 13:59:29,080: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-08-06 13:59:29,081: INFO: main: >>>>>>>>>>>>> stage Data Validation stage started <<<<<<<<<<<<]
+[2025-08-06 13:59:29,084: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 13:59:29,086: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 13:59:29,091: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 13:59:29,092: INFO: common: created directory at: artifacts]
+[2025-08-06 13:59:29,092: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_validation_config']
+Traceback (most recent call last):
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\main.py", line 26, in <module>
+    data_ingestion.main()
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\pipeline\stage_02_validation_data.py", line 15, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_validation_config'. Did you mean: 'get_data_ingestion_config'?
+[2025-08-06 17:31:01,809: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage started <<<<<<<<<<<<]
+[2025-08-06 17:31:01,811: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 17:31:01,812: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 17:31:01,815: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 17:31:01,815: INFO: common: created directory at: artifacts]
+[2025-08-06 17:31:01,816: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-06 17:31:01,816: INFO: data_ingestion: File already exists of size: ~ 114 KB]
+[2025-08-06 17:31:01,821: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-08-06 17:31:01,822: INFO: main: >>>>>>>>>>>>> stage Data Validation stage started <<<<<<<<<<<<]
+[2025-08-06 17:31:01,823: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 17:31:01,824: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 17:31:01,826: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 17:31:01,827: INFO: common: created directory at: artifacts]
+[2025-08-06 17:31:01,828: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_validation_config']
+Traceback (most recent call last):
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\main.py", line 26, in <module>
+    data_ingestion.main()
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\pipeline\stage_02_validation_data.py", line 15, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_validation_config'. Did you mean: 'get_data_ingestion_config'?
+[2025-08-06 17:32:07,096: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 17:32:07,102: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 17:32:07,125: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 17:32:07,128: INFO: common: created directory at: artifacts]
+[2025-08-06 17:32:07,131: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-06 17:44:43,929: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 17:44:43,935: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 17:44:43,941: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 17:44:43,946: INFO: common: created directory at: artifacts]
+[2025-08-06 17:44:43,949: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-06 18:03:47,280: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage started <<<<<<<<<<<<]
+[2025-08-06 18:03:47,282: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 18:03:47,285: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 18:03:47,288: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 18:03:47,289: INFO: common: created directory at: artifacts]
+[2025-08-06 18:03:47,290: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-06 18:03:47,291: INFO: data_ingestion: File already exists of size: ~ 114 KB]
+[2025-08-06 18:03:47,297: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-08-06 18:03:47,298: INFO: main: >>>>>>>>>>>>> stage Data Validation stage started <<<<<<<<<<<<]
+[2025-08-06 18:03:47,300: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 18:03:47,302: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 18:03:47,305: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 18:03:47,307: INFO: common: created directory at: artifacts]
+[2025-08-06 18:03:47,308: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-06 18:03:47,309: ERROR: main: DataValidationConfig.__init__() got an unexpected keyword argument 'STATUS_FILE']
+Traceback (most recent call last):
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\main.py", line 26, in <module>
+    data_ingestion.main()
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\pipeline\stage_02_validation_data.py", line 15, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\config\configuration.py", line 44, in get_data_validation_config
+    data_validation_config = DataValidationConfig(
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataValidationConfig.__init__() got an unexpected keyword argument 'STATUS_FILE'
+[2025-08-06 18:07:00,097: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage started <<<<<<<<<<<<]
+[2025-08-06 18:07:00,099: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 18:07:00,101: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 18:07:00,104: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 18:07:00,104: INFO: common: created directory at: artifacts]
+[2025-08-06 18:07:00,105: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-06 18:07:00,105: INFO: data_ingestion: File already exists of size: ~ 114 KB]
+[2025-08-06 18:07:00,111: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-08-06 18:07:00,111: INFO: main: >>>>>>>>>>>>> stage Data Validation stage started <<<<<<<<<<<<]
+[2025-08-06 18:07:00,113: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 18:07:00,115: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 18:07:00,118: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 18:07:00,119: INFO: common: created directory at: artifacts]
+[2025-08-06 18:07:00,119: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-06 18:07:00,145: ERROR: main: 'DataValidationConfig' object has no attribute 'STATUS_FILE']
+Traceback (most recent call last):
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\main.py", line 26, in <module>
+    data_ingestion.main()
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\pipeline\stage_02_validation_data.py", line 17, in main
+    data_validation.validate_data()
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\components\data_validation.py", line 34, in validate_data
+    raise e
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\components\data_validation.py", line 28, in validate_data
+    with open(self.config.STATUS_FILE, "w") as f:
+              ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataValidationConfig' object has no attribute 'STATUS_FILE'
+[2025-08-06 18:10:29,467: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage started <<<<<<<<<<<<]
+[2025-08-06 18:10:29,469: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 18:10:29,472: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 18:10:29,475: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 18:10:29,475: INFO: common: created directory at: artifacts]
+[2025-08-06 18:10:29,476: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-06 18:10:29,476: INFO: data_ingestion: File already exists of size: ~ 114 KB]
+[2025-08-06 18:10:29,482: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-08-06 18:10:29,483: INFO: main: >>>>>>>>>>>>> stage Data Validation stage started <<<<<<<<<<<<]
+[2025-08-06 18:10:29,484: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 18:10:29,485: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 18:10:29,488: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 18:10:29,489: INFO: common: created directory at: artifacts]
+[2025-08-06 18:10:29,490: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-06 18:10:29,490: ERROR: main: DataValidationConfig.__init__() got an unexpected keyword argument 'STATUS_FILE']
+Traceback (most recent call last):
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\main.py", line 26, in <module>
+    data_ingestion.main()
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\pipeline\stage_02_validation_data.py", line 15, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\config\configuration.py", line 42, in get_data_validation_config
+    data_validation_config = DataValidationConfig(
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataValidationConfig.__init__() got an unexpected keyword argument 'STATUS_FILE'
+[2025-08-06 18:15:30,483: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage started <<<<<<<<<<<<]
+[2025-08-06 18:15:30,485: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 18:15:30,487: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 18:15:30,490: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 18:15:30,490: INFO: common: created directory at: artifacts]
+[2025-08-06 18:15:30,491: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-06 18:15:30,491: INFO: data_ingestion: File already exists of size: ~ 114 KB]
+[2025-08-06 18:15:30,496: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-08-06 18:15:30,497: INFO: main: >>>>>>>>>>>>> stage Data Validation stage started <<<<<<<<<<<<]
+[2025-08-06 18:15:30,499: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 18:15:30,500: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 18:15:30,503: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 18:15:30,503: INFO: common: created directory at: artifacts]
+[2025-08-06 18:15:30,504: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-06 18:15:30,504: ERROR: main: DataValidationConfig.__init__() got an unexpected keyword argument 'STATUS_FILE']
+Traceback (most recent call last):
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\main.py", line 26, in <module>
+    data_ingestion.main()
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\pipeline\stage_02_validation_data.py", line 15, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\config\configuration.py", line 42, in get_data_validation_config
+    data_validation_config = DataValidationConfig(
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataValidationConfig.__init__() got an unexpected keyword argument 'STATUS_FILE'
+[2025-08-06 18:20:20,269: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage started <<<<<<<<<<<<]
+[2025-08-06 18:20:20,271: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 18:20:20,273: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 18:20:20,277: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 18:20:20,278: INFO: common: created directory at: artifacts]
+[2025-08-06 18:20:20,279: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-06 18:20:20,279: INFO: data_ingestion: File already exists of size: ~ 114 KB]
+[2025-08-06 18:20:20,286: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-08-06 18:20:20,286: INFO: main: >>>>>>>>>>>>> stage Data Validation stage started <<<<<<<<<<<<]
+[2025-08-06 18:20:20,288: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 18:20:20,289: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 18:20:20,291: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 18:20:20,292: INFO: common: created directory at: artifacts]
+[2025-08-06 18:20:20,293: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-06 18:20:20,294: ERROR: main: DataValidationConfig.__init__() got an unexpected keyword argument 'STATUS_FILE']
+Traceback (most recent call last):
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\main.py", line 26, in <module>
+    data_ingestion.main()
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\pipeline\stage_02_validation_data.py", line 15, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\config\configuration.py", line 42, in get_data_validation_config
+    data_validation_config = DataValidationConfig(
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataValidationConfig.__init__() got an unexpected keyword argument 'STATUS_FILE'
+[2025-08-06 18:20:43,876: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage started <<<<<<<<<<<<]
+[2025-08-06 18:20:43,878: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 18:20:43,881: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 18:20:43,884: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 18:20:43,885: INFO: common: created directory at: artifacts]
+[2025-08-06 18:20:43,885: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-06 18:20:43,886: INFO: data_ingestion: File already exists of size: ~ 114 KB]
+[2025-08-06 18:20:43,893: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-08-06 18:20:43,893: INFO: main: >>>>>>>>>>>>> stage Data Validation stage started <<<<<<<<<<<<]
+[2025-08-06 18:20:43,896: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 18:20:43,897: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 18:20:43,900: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 18:20:43,901: INFO: common: created directory at: artifacts]
+[2025-08-06 18:20:43,901: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-06 18:20:43,930: ERROR: main: 'DataValidationConfig' object has no attribute 'STATUS_FILE']
+Traceback (most recent call last):
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\main.py", line 26, in <module>
+    data_ingestion.main()
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\pipeline\stage_02_validation_data.py", line 17, in main
+    data_validation.validate_data()
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\components\data_validation.py", line 34, in validate_data
+    raise e
+  File "C:\Users\xaris\Desktop\SQL\Teen Phone Addiction Project\Teen_Phone_Addiction\src\Teen_Phone_Addiction\components\data_validation.py", line 28, in validate_data
+    with open(self.config.STATUS_FILE, "w") as f:
+              ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataValidationConfig' object has no attribute 'STATUS_FILE'
+[2025-08-06 18:21:03,249: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage started <<<<<<<<<<<<]
+[2025-08-06 18:21:03,251: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 18:21:03,251: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 18:21:03,254: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 18:21:03,255: INFO: common: created directory at: artifacts]
+[2025-08-06 18:21:03,256: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-06 18:21:03,256: INFO: data_ingestion: File already exists of size: ~ 114 KB]
+[2025-08-06 18:21:03,260: INFO: main: >>>>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-08-06 18:21:03,261: INFO: main: >>>>>>>>>>>>> stage Data Validation stage started <<<<<<<<<<<<]
+[2025-08-06 18:21:03,262: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-06 18:21:03,264: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-06 18:21:03,266: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-08-06 18:21:03,266: INFO: common: created directory at: artifacts]
+[2025-08-06 18:21:03,267: INFO: common: created directory at: artifacts/data_validation]
+[2025-08-06 18:21:03,284: INFO: main: >>>>>>>>>>>>> stage Data Validation stage completed <<<<<<<<<<<<]

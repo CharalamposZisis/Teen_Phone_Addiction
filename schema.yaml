@@ -1,2 +1,30 @@
-key: val
+# On data validation, we will check the schema of the dataset (if dataset matches the expected schema)
 
+COLUMNS:
+      ID : int64
+      Name : object
+      Age : int64
+      Gender : object
+      Location : object
+      School_Grade : object
+      Daily_Usage_Hours : float64
+      Sleep_Hours : float64
+      Academic_Performance  : int64
+      Social_Interactions : int64
+      Exercise_Hours : float64
+      Anxiety_Level : int64
+      Depression_Level : int64
+      Self_Esteem : int64
+      Parental_Control  : int64
+      Screen_Time_Before_Bed : float64
+      Phone_Checks_Per_Day : int64
+      Apps_Used_Daily : int64
+      Time_on_Social_Media : float64
+      Time_on_Gaming : float64
+      Time_on_Education : float64
+      Phone_Usage_Purpose : object
+      Family_Communication : int64
+      Weekend_Usage_Hours : float64
+
+Target:
+      Addiction_Level : int64 

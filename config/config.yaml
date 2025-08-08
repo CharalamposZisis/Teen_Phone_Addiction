@@ -11,5 +11,10 @@ data_ingestion:
 
 data_validation:
   root_dir: artifacts/data_validation
-  unzip_data_dir: artifacts/data_ingestion/teen_phone_addiction_dataset.zip
+  unzip_data_dir: artifacts\data_ingestion\extracted_data\teen_phone_addiction_dataset.csv
   STATUS_FILE: artifacts/data_validation/status.txt
+
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+  data_path: artifacts\data_ingestion\extracted_data\teen_phone_addiction_dataset.csv

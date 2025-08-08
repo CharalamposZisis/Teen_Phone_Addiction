@@ -26,5 +26,5 @@ COLUMNS:
       Family_Communication : int64
       Weekend_Usage_Hours : float64
 
-Target:
+target_column:
       Addiction_Level : int64 
